@@ -110,7 +110,7 @@ namespace ProjetDemineur5TTI
             {
                 for (int j = 0; j < TailleGrille; j++)
                 {
-                    grille[i, j] = '.'; // Représente une case non découverte
+                    grille[i, j] = ' '; // Représente une case non découverte
                     grilleDévoilée[i, j] = false; // Toutes les cases sont initialement non dévoilées
                     grilleMarquée[i, j] = false; // Aucune case n'est marquée au départ
                 }
